@@ -15,6 +15,19 @@
 			    height: 700px;
 			    display: none;
 			}
+
+					.loadingtext{
+		        font-weight: bold;
+		          color: white;
+		          text-align: center;
+		          left: 0;
+		    line-height: 200px;
+		    margin: auto;
+		    margin-top: -100px;
+		    position: absolute;
+		    top: 50%;
+		    width: 100%;
+				}
 			/*#coordsDiv{
 				position: absolute;
 				background-color: white;
@@ -59,7 +72,11 @@
 			<button id="btnHybrid">Hybrid</button>
 		<div id="mapDiv"></div>
 		<!-- <div id="coordsDiv"></div> -->
-		<div class="loading"></div>
+		<div class="loading">
+			<div class="loadingtext">
+	Searching tweets..100 at a time. Please be patient :D Zoom out if you can't see tweets.
+			</div>
+		</div>
 		<!-- twitter search on the server -->
 		
 		</body>
